@@ -1,0 +1,17 @@
+{
+  "name": "UpNext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "is-empty": "^1.2.0",
+    "validator": "^10.11.0"
+  }
+}
